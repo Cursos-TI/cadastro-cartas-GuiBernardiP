@@ -35,7 +35,7 @@ int main(){
     scanf("%f", &pib);
 
     printf("Quantos pontos turisticos tem a primeira cidade: \n");
-    scanf(" %d", &pontos_turisticos);
+    scanf("%d", &pontos_turisticos);
 
     float densidade = (float) populacao / km2;
     float capita = (float) populacao / pib;
@@ -59,7 +59,7 @@ int main(){
     scanf("%f", &pib2);
 
     printf("Quantos pontos turisticos tem a segunda cidade: \n");
-    scanf(" %d", &pontos_turisticos);
+    scanf("%d", &pontos_turisticos);
 
     float densidade2 = (float) populacao2 / km²2;
     float capita2 = (float) populacao2 / pib2;
